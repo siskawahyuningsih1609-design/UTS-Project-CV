@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <tittle>CV Siska Wahyuningsih</tittle>
+        <style>
+            /*--bagian CSS untuk mengatur tampilan CV--*/
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .container{
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .header{
+                text-align: center;
+                border-bottom: 2px solid #333;
+                padding-bottom: 10px;
+            }
+            /*mengatur tampilan foto profil*/
+            .profile-img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #007BFF;
+
+            }
+            h2 {
+                color: #007BFF;
+                boder-left: 5px solid #007BFF;
+                padding-left: 10px;
+                margin-top: 30px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+            }
+            table, th, td {
+                border: 1px solid #ddd;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            .gallery {
+                display: flex;
+                gap: 10px;
+                justify-content: space-arround;
+                margin-top: 15px;
+            }
+            .gallery img {
+                width: 30%;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+               
+            }
+            .btn-kontak {
+                background-color: #28a745;
+                color:#fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            .btn-kontak:hover {
+                background-color: #218838;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <! -- KOMENTAR: Bagian header dengan foto profil dan nama lengkap -->
+            <div class="header">
+                <!-- Gambar 1: foto profil -->
+                 <img src="c:\Users\siska\OneDrive\Documents\WhatsApp Image 2026-06-10 at 11.49.13 AM.jpeg"
+
+                 <!-- tag heading-->
+                <h1>Siska Wahyuningsih</h1>
+
+                <!--tag text formating: i (italic) dan b (bold)-->
+                <p><i>Mahasiswa Teknik Informatika</i></p>
+                <p><b>email: siskawahyunuingsih1609@gmail.com</b></p>
+                <p><b>telepon: 083116036248</b></p>
+
+            </div>
+
+            <!--KOMENTAR: Riwayat pendidikan menggunakan tabel 1-->
+            <h2>Riwayat Pendidikan </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun  </th>
+                        <th>Universitas</th>
+                        <th>jurusan</th>
+                    </tr>
+                </thead>
+                <ttbody>
+                    <tr>
+                        <td>2013-2016</td>
+                        <td>Sekolah Tara Depok</td>
+                        <td>Teknik Komputer Dan Jaringan</td>
+                    </tr>
+                    <tr>
+                        <td>2025-sekarang</td>
+                        <td>Universitas Siber Asia</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                </ttbody>
+            </table>
+            <!--KOMENTAR: Keahlian Menggunakan List -->
+            <h2>Keahlian</h2>
+            <p> Berikut adalah beberapa keahlian yang saya miliki:</p>
+            <ol>
+                <li>Dasar HTML</li>
+                <li>C++</li>
+             </ol>
+             <!--KOMENTAR: Pengalaman Kerja-->
+                <h2>Pengalaman Kerja</h2>
+                <p>Saya memiliki pengalaman kerja sebagai berikut:</p>
+                <ul>
+                    <li>2019 - 2024 = Bekerja di taiwan</li>
+                    <li>2025-Sekarang = Bekerja di taiwan</li>
+
+                </ul>
+                <!--KOMENTAR : Hobi menggunakan list tidak terurut (unodered list)  -->
+                <h2>Hobi</h2>
+                <p>Berikut adalah beberapa hobi yang saya nikmati:</p>
+                <ul>
+                    <li>Memasak</li>
+                    <li>Traveling</li>
+                    <li>Membaca Buku</li>
+                </ul>
+                <!--KOMENTAR: Galeri Foto menggunakan Flexbox-->
+                <h2>Galeri Foto</h2>
+                <p>ini adalah galeri foto saya:</p>
+                <div class="gallery">
+                <!--Gambar 2 -->
+                <img src="c:\Users\siska\OneDrive\Documents\download.jpeg"
+                <!--Gambar 3 -->
+                <img src="c:\Users\siska\OneDrive\Documents\download (1).jpeg"
+                </div>
+
+                <!--KOMENTAR : Link Eksternal (3 link berbeda)-->
+                <h2> hubungi saya melalui link di bawah ini:</h2>
+                <p> 
+                    1. Menghubungkan Pertemanan di <a href="https://www.facebook.com/siskawhyu.n" target="_blank">facebook</a>
+                    2. cari refrensi konten menarik <a href="https://www.digitalmarketingschool.id/8-tools-mencari-ide-konten/" target=_blank">google</a>
+                    3. hubungkan pertemanan di <a href="https://www.linkedin.com/in/siska-wahyuningsih-8154633a2/" target=_blank">linkedin</a>
+                </p>
+
+                <!-- KOMENTAR: tombol interaktif dengan javascript -->
+                <hr>
+                <div style=" text-align: center; margin-top: 20px;">
+                    <button class="btn-kontak" id="tombolSapa"> sapa saya!</button>
+                </div>
+                
+         </div>
+
+         <!-- Bagian javascript sederhana -->
+         <script>
+            // Mengambil elemen tombol berdasarkan id
+            const tombol = document.getElementById('tombolSapa');
+
+            // Menambahkan efek ketika tombol diklik
+            tombol.addEventListener('click',function(){
+                alert('Terima Kasih sudah berkunjung ke cv Siska! salam kenal semuanya!');
+            } );
+        </script>
+    </body>
+</html>
